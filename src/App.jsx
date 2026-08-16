@@ -1,5 +1,6 @@
 import PriceCard from "./pages/PriceCard"
 import Profile from "./pages/Profile"
+import Navbar from "./pages/ResponsiveNav"
 
 function App() {
   return (
@@ -9,8 +10,16 @@ function App() {
     // <Profile  />
     // </div>
 
+    //this is for pricecard
+    // <PriceCard />
 
-    <PriceCard />
+
+    <div>
+      <Navbar />
+      <div className="h-230">
+
+      </div>
+    </div>
   )
 }
 
