@@ -1,3 +1,4 @@
+import Grid from "./pages/Grid"
 import Login from "./pages/login"
 import PriceCard from "./pages/PriceCard"
 import Profile from "./pages/Profile"
@@ -20,7 +21,11 @@ function App() {
     //   <div className="h-230"></div>
     // </div>
 
-    <Login />
+
+    //this is for login form
+    // <Login />
+
+    <Grid />
   )
 }
 
