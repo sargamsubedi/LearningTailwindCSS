@@ -1,3 +1,4 @@
+import Login from "./pages/login"
 import PriceCard from "./pages/PriceCard"
 import Profile from "./pages/Profile"
 import Navbar from "./pages/ResponsiveNav"
@@ -13,13 +14,13 @@ function App() {
     //this is for pricecard
     // <PriceCard />
 
+// this is for navbar
+    // <div>
+    //   <Navbar />
+    //   <div className="h-230"></div>
+    // </div>
 
-    <div>
-      <Navbar />
-      <div className="h-230">
-
-      </div>
-    </div>
+    <Login />
   )
 }
 
