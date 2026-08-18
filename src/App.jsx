@@ -1,4 +1,5 @@
 import Grid from "./pages/Grid"
+import Hero from "./pages/Hero"
 import Login from "./pages/login"
 import PriceCard from "./pages/PriceCard"
 import Profile from "./pages/Profile"
@@ -25,7 +26,8 @@ function App() {
     //this is for login form
     // <Login />
 
-    <Grid />
+    // <Grid />
+    <Hero />
   )
 }
 
