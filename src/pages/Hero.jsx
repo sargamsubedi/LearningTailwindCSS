@@ -6,7 +6,7 @@ import big from '../assets/imgforhero/Group 1053.png'
 
 function Hero() {
     return (
-        <div className=" font-[Inter] h-screen w-screen bg-linear-45 from-pink-100 to-white flex flex-col">
+        <div className=" font-[Inter] h-screen w-screen bg-linear-to-r from-pink-100 to-white flex flex-col">
             <header>
                 <HeroNavbar />
             </header>
@@ -14,9 +14,9 @@ function Hero() {
                 {/* for contents */}
                 <div className=" flex-1 flex flex-col justify-center items-center ">
 
-                    <div className="flex flex-col gap-7 width-fit m-auto">
+                    <div className="flex flex-col gap-5 width-fit m-auto">
 
-                        <div className="text-purple-300 text-lg">
+                        <div className="text-taupe-400 text-lg font-extralight">
                             <p>Your personal</p>
                             <p>Hair specialist</p>
                         </div>
